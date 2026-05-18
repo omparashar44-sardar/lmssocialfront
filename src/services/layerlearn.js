@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5001/layerlearn';
+const API_BASE = 'https://lmssocialbackend.onrender.com';
 
 const parseResponse = async (response) => {
   const contentType = response.headers.get('content-type') || '';
